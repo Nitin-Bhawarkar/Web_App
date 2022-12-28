@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+html, #root{
+  background: #f8f9fa;
+}
+
+/* Registration Page */
+
+.signup-content {
+  margin: 50px auto;
+  max-width: 60%;
+  height: 530px;
+  box-shadow: 0px 8px 8px rgba(116, 104, 104, 0.3);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+
+.signup-form h2{
+  font-weight: 800;
+}
+
+.signup-form, .signup-image {
+  width: 40%;
+  float: left;
+  margin-left: 50px;
+ padding: 20px 20px 30px 30px;
+}
+
+.signup-image {
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.NavLink{
+  text-decoration: none;
+
+}
+
+.signup-image img {
+  width: 100%;
+ 
+}
+
+ .form-group{
+  padding: 10px 0px 0px 0px;
+  border-bottom: 2px solid rgb(195, 184, 184); 
+} 
+
+
+.material-icons-name{
+  font-size: 20px;
+  padding: 0px 0px 0px 8px;
+}
+.name,.phone,.work, .password,.cpassword, .email{
+  font-family: inherit;
+  outline: 0;
+  width: 80%;
+  border: 0;
+  padding: 8px 0px 10px 20px;
+}
+
+.form-button{
+  margin-top: 20px;
+  border: 0;
+  
+}
+input[type=submit]{
+  background: rgb(53, 151, 255);
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input[type=submit]:hover{
+  background: rgb(22, 125, 235);
+}
+
+.regis{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Login Page */
+
+
+.signin-content {
+  margin: 50px auto;
+  max-width: 60%;
+  height: 530px;
+  box-shadow: 0px 8px 8px rgba(116, 104, 104, 0.3);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+
+.signin-form h2{
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.signin-form, .signin-image {
+  width: 40%;
+  float: left;
+  margin-left: 50px;
+ padding: 20px 20px 30px 30px;
+}
+
+.signin-image {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.NavLink{
+  text-decoration: none;
+
+}
+
+.signin-image img {
+  width: 100%;
+ 
+}
+
+ .form-group{
+  padding: 10px 0px 0px 0px;
+  border-bottom: 2px solid rgb(195, 184, 184); 
+} 
+
+
+.material-icons-name{
+  font-size: 20px;
+  padding: 0px 0px 0px 8px;
+}
+.name, .password {
+  font-family: inherit;
+  outline: 0;
+  width: 80%;
+  border: 0;
+  padding: 8px 0px 10px 20px;
+}
+
+.form-button{
+  margin-top: 20px;
+  border: 0;
+  
+}
+input[type=submit]{
+  background: rgb(53, 151, 255);
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input[type=submit]:hover{
+  background: rgb(22, 125, 235);
+}
+
+.logis{
+  text-decoration: none;
+  color: black;
+}
+
+/* Contact Info */
+
+
+.contact_info_item{
+  box-shadow: 0px 1px 5px 2px rgba(116, 104, 104, 0.3);
+  height: 70px;
+  background-color:#ffffff;
+  width: 30%;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.contact_info_content{
+  padding-left: 15px;
+}
+
+.contact_info_text{
+  color: gray;
+  
+}
+
+.contact_form_container {
+  margin-top: 40px;
+  box-shadow: 2px 1px 10px 2px rgba(116, 104, 104, 0.3);
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.contact_form_title{
+  font-weight: 800;
+  padding-left: 10%;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.input_field {
+  padding-left: 20px;
+  border: none;
+  height: 40px;
+  width: 30%;
+  border-color: gray;
+  box-shadow: 0px 0px 1px 1px rgba(116, 104, 104, 0.3);
+
+}
+#contact_form{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact_form_text{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contact_form_message{
+  padding: 15px;
+  border: none;
+  height: 150px;
+ 
+  width: 100%;
+  border-color: gray;
+  box-shadow: 0px 0px 1px 1px rgba(116, 104, 104, 0.3);
+}
+
+button[type=submit]{
+  background: rgb(53, 151, 255);
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button[type=submit]:hover{
+  background: rgb(22, 125, 235);
+}
+
+/* Home Page */
+
+.home-page{
+  background-image: url("./Images_V/Background3.jpg");
+  background-position: center center; 
+  background-size: cover;
+  height: 665px;
+}
+
+.home-div {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.home-div p {
+  background: #121FCF;
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight: 800;
+font-family: 'Allura', cursive;
+font-family: 'Oswald', sans-serif;
+font-size: 50px;
+}
+.home-div h1 {
+  
+  font-size: 60px;
+ color: rgb(29, 180, 255);
+ font-family: 'Great Vibes', cursive;
+
+
+}
+
+.home-div h2 {
+color: #f8f9fa;
+font-family: 'Great Vibes', cursive;
+
+}
+
+/* About Us */
+
+.emp-profile {
+  margin: 60px auto;
+  width:70%;
+  height: 530px;
+  box-shadow: 0px 8px 8px rgba(116, 104, 104, 0.3);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding-top: 50px;
+}
+
+.emp-profile img {
+ width: 90%;
+ height: 100%;
+ padding-left: 50px;
+}
+
+.profile-edit-btn{
+  background: rgb(53, 151, 255);
+  border: 0;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.profile-head h6,.profile-tab p {
+  color: #0096FF;
+}
+
+.profile-work {
+  padding: 20px 0px 0px 50px;
+  margin-bottom: 10px;
+}
+
+.profile-work a{
+  display: inline-block;
+padding-bottom: 10px;
+text-decoration: none;
+}
+
+.profile-tab{
+  padding: 20px;
+  }
+
+/* Error Page */
+
+.notfound, .notfound h1{
+  margin-top:5%;
+  font-weight: 600;
+  font-size: 200px;
+  color: #422a2a;
+  text-align: center;
+}
+
+.notfound h2{
+  font-weight: 600;
+  text-align: center;
+}
+
+.notfound p{
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(32, 129, 199);
+}
+
+.notfound a {
+  color: #ffffff;
+  font-weight: 100;
+  font-family:Arial, Helvetica, sans-serif;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(1, 134, 171);
+  margin: 0 42% 0 42%;
+  border-radius: 10pc;
+  }
+  
+  .notfound a:hover {
+    color: #ffffff;
+    background-color: #3691d3;
+  }
+
+
+
+  /* Media Queries */
+
+
+  @media only screen and (max-width:1490px) {
+    .emp-profile img {
+      width: 100%;
+      height: 100%;
+      padding-left: 30px;
+     }
+  }
+
+  @media only screen and (max-width:767px) {
+    .emp-profile img {
+      width: 100%;
+      height: 100%;
+      padding: 0px 35px 15px 35px;
+
+     }
+     .emp-profile {
+      height: 1230px;
+    }
+
+     .profile-head {
+      padding-left: 35px;
+       
+    }
+    .profile-work{
+      padding-top: 50px;
+    }
+
+    .profile-edit-btn{
+      text-align: center;
+      margin-left: 35px;
+      margin-top: 5px;
+      position: absolute; 
+      z-index: 1;
+      display: none;
+    }
+
+  }
+ 
+
+
+.VijayMama img{
+  width: 50%;
+
+  border-radius: 310px;
+  margin: 0px 0 0px 100px;
+}
+
+.NitinPro img{
+  width: 40%;
+  margin-left: 160px;
+  border-radius: 210px;
+}
+
+.Blue img{
+  width: 40%;
+  margin-left: 20px;
+  border-radius: 210px;
+}
+
+.bigg{
+  padding:20px 0 20px 0;
+}
+
+
+
+.CutiePie img{
+  width: 40%;
+  margin-left: 160px;
+  border-radius: 210px;
+}
+.MamaMi img{
+  width: 80%;
+  border-radius: 80px;
+  margin-left: 40px;
+}
+.Krishna img{
+  width: 40%;
+  margin-left: 30px;
+  border-radius: 210px;
+}
+.Nandi img{
+  width: 45%;
+  margin-left: 150px;
+  border-radius: 50px;
+}
+.Shriu img{
+  width: 42%;
+  margin-left: 120px;
+  border-radius: 20px;
+}
+.Parvati img{
+  width: 35%;
+  border-radius: 30px;
+margin-left: 20px;
+}
+
+
+
+.Birthday{
+  margin-top: 20px;
+  height: 1000px;
+  
+}
+.Birthday2{
+  margin-left: 100px;
+  box-shadow: 0px 1px 5px 2px rgba(116, 104, 104, 0.3);
+padding: 20px 0 0 0;
+height: 690px;
+width: 90%;
+background-image: url("./Images_V/Background2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 100px;
+}
