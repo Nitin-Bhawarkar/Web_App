@@ -5,7 +5,7 @@ This repository contains the frontend and backend code for a web application bui
 
 Clone the repository to your local machine: contain Front end and Server folder(Backend).
 
-### git clone <repository_url>
+`git clone <repository_url>`
 
 ## Backend Setup
 
