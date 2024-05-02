@@ -12,27 +12,26 @@ Clone the repository to your local machine: contain Front end and Server folder(
 
 1. Navigate to the backend directory:
 
-### cd server
+`cd server`
 
 
 2. Create a .env file in the backend directory and add the following environment variables:
 
-### MONGO_URI=<your_mongodb_uri>
-### SECRET_KEY=<your_secret_key>
-### PORT=<port_number>
+`MONGO_URI=<your_mongodb_uri>`
+`SECRET_KEY=<your_secret_key>`
+`PORT=<port_number>`
 
 Replace <your_mongodb_uri> with your MongoDB connection string, <your_secret_key> with any uppercase 32 characters secret key, and <port_number> with the desired port number to run the server.
 
 3. Install dependencies using npm:
 
-### npm install
+`npm install`
 
 4. Run the backend server:
 
-### npm run start
+`npm run start`
 
 This will start the backend server on the specified port.
-
 
 
 ## Frontend Setup
@@ -40,15 +39,15 @@ This will start the backend server on the specified port.
 
 1.  Navigate to the frontend directory:
 
-### cd frontend
+`cd frontend`
 
 3. Install dependencies using npm:
 
-### npm install
+`npm install`
 
 4. Run the frontend server:
 
-### npm run start
+`npm run start`
 
 This will start the frontend server on port 3000 by default or any port.
 
@@ -59,7 +58,7 @@ To ensure that the frontend can communicate with the backend, you need to set up
 1. Open the frontend/package.json file.
 2. Add a proxy field with the backend port number:
 
-### "proxy": "http://localhost:<backend_port>/"
+`"proxy": "http://localhost:<backend_port>/"`
 
 
 Replace <backend_port> with the port number where your backend server is running (e.g., 5000).
