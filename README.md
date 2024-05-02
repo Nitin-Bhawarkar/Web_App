@@ -3,7 +3,7 @@
 
 This repository contains the frontend and backend code for a web application built with React.js and Node.js, respectively. This guide will walk you through the setup process and explain how to run both the frontend and backend servers simultaneously.
 
-Clone the repository to your local machine: contain Front end and Server folder(Backend).
+Clone the repository to your local machine: contain the Front end and Server folder(Backend).
 
 `git clone <repository_url>`
 
@@ -79,4 +79,31 @@ Both servers should now be running concurrently, and you can access the web appl
 1. If running the frontend and backend on different ports, ensure that the frontend's proxy is correctly configured to forward requests to the backend server.
 2. If encountering any issues, double-check that the MongoDB URI, secret key, and port number in the `.env` file are correctly set.
 3. Feel free to reach out to me for further assistance or troubleshooting.
-That's it! You're now ready to develop and run the web application with frontend and backend integration. Happy coding!
+That's it! You're now ready to develop and run the web application with front-end and back-end integration. Happy coding!
+
+## Before Login 
+### 1. Home Page
+![Before_login Home Page](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/da46a308-3b31-4915-b62f-f676e5784991)
+
+### 2. Navbar
+![Before_login Home Page -Navbar](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/c770234e-7d26-476a-87d5-a637af27f90d)
+
+### 3. Contact Page
+![Bfore login contact page](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/8cff351e-9109-45d6-a465-60e8733627fb)
+
+### 3. Registration Page
+![signup](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/0b51632e-504f-4145-9136-c5eb9148ef8e)
+
+### 4. Login Page
+![signin](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/1d024cea-18b1-423a-b6ae-83cb8c481e87)
+
+
+
+
+
+
+
+
+
+
+
