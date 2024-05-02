@@ -104,7 +104,7 @@ Here, we add all the required credentials. After hitting the register. The user 
 
 ### 1. After Entering login credentials
 
-After entering the correct login credentials user will log in site. Poppul has shown login successful.
+After entering the correct login credentials user will log in site. Poppup has shown login successful.
 
 ![login_cred](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/630df3d8-c9a9-4dab-8482-a90fe3f7e44f)
 
@@ -119,7 +119,7 @@ In the About Us page user details are fetched from the database.
 ![login_about](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/360a0602-9d31-4c80-b5c7-1b19844525d7)
 
 ### 4. Contact Page
-In contact us after login we can send a message which is directly saved in database
+In contact us after login we can send a message which is directly saved in the database
 ![login contact](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/75703cef-4a8c-42d3-a6e7-81da5d4be24a)
 
 
