@@ -492,3 +492,7 @@ background-repeat: no-repeat;
 background-size: cover;
 border-radius: 100px;
 }
+
+.navbar-brand img{
+  width: 200px;
+}

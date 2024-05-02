@@ -3,7 +3,8 @@ import React, { useContext } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from 'react-router-dom';
 import { UserContext } from '../App';
-import vijaylogo from '../images/vijaylogo.png';
+// import vijaylogo from '../images/vijaylogo.png';
+import vijaylogo from '../images/logo-white.png';
 
 const Navbar = () => {
 
@@ -64,11 +65,6 @@ const RenderMenu = () =>{
           )
       }
 }
-
-
-
-
-
 
 
   return (
