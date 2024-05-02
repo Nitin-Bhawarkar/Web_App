@@ -19,9 +19,9 @@ const RenderMenu = () =>{
             <li className="nav-item">
               <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
         <NavLink className="nav-link" to="/vijay">Vijay</NavLink>
-        </li>
+        </li> */}
 
             <li className="nav-item">
             <NavLink className="nav-link" to="/about">About</NavLink>
