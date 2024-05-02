@@ -81,7 +81,10 @@ Both servers should now be running concurrently, and you can access the web appl
 3. Feel free to reach out to me for further assistance or troubleshooting.
 That's it! You're now ready to develop and run the web application with front-end and back-end integration. Happy coding!
 
+# Adding Screenshot below before and after login.
+
 ## Before Login 
+
 ### 1. Home Page
 ![Before_login Home Page](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/da46a308-3b31-4915-b62f-f676e5784991)
 
