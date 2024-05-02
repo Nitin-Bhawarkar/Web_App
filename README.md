@@ -97,10 +97,15 @@ That's it! You're now ready to develop and run the web application with front-en
 ### 4. Login Page
 ![signin](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/1d024cea-18b1-423a-b6ae-83cb8c481e87)
 
+## After Login 
 
+### 1. Home Page
 
+### 2. Navbar
 
+### 3. Contact Page
 
+### 3. About Page
 
 
 
