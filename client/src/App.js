@@ -30,7 +30,7 @@ const Routing = () =>{
 <Route path='/login' element={<Login />}/>
 <Route path='/signup' element={<Registration />}/>
 <Route path='/logout' element={<Logout />}/>
-<Route path='/vijay' element={<Vijay />}/>
+{/* <Route path='/vijay' element={<Vijay />}/> */}
 <Route path='*' element={<Errorpage/>}/>
 
 </Routes>
