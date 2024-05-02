@@ -92,6 +92,9 @@ That's it! You're now ready to develop and run the web application with front-en
 ![Bfore login contact page](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/8cff351e-9109-45d6-a465-60e8733627fb)
 
 ### 3. Registration Page
+
+Here, we add all required credenials. After hitting the regiser. User is registered in MongoDB database.
+
 ![signup](https://github.com/Nitin-Bhawarkar/Web_App/assets/50537129/0b51632e-504f-4145-9136-c5eb9148ef8e)
 
 ### 4. Login Page
@@ -99,13 +102,17 @@ That's it! You're now ready to develop and run the web application with front-en
 
 ## After Login 
 
-### 1. Home Page
+### 1. After Entering login credentials
 
-### 2. Navbar
+After entering correct login credentials user will be login in site.
 
-### 3. Contact Page
+### 2. Home Page
 
-### 3. About Page
+### 3. Navbar
+
+### 4. Contact Page
+
+### 5. About Page
 
 
 
